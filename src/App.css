@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #333;
+
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+
+}
+
+.center-container{
+    height: 500px;
+    width: 350px;
+    background-color: #c4e862; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    padding: 20px; /* Add padding inside the container */
+
+
+}
+
+.app-heading{
+    padding: 4px;
+    color: white;
+}
+
+.input-container{
+    margin: 10px 0; /* Margin top and bottom */
+    display: flex;
+    justify-content: center; /
+
+}
+
+.input-box-todo{
+    width: 250px; /* Increased width */
+    height: 40px;
+    border-radius: 20px; /* Larger border radius */
+    text-align: center;
+    border: 1px solid #cccccc; /* Light gray border */
+    outline: none; /* Remove default outline */
+    font-size: 16px; /* Font size */
+    padding: 8px; /* Padding inside the input box */
+    margin-right: 10px; /* Space between input and button */
+
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    width: 120px; /* Increased width for better readability */
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Darker green on hover */
+    transform: translateY(-2px); /* Lift up slightly on hover */
+}
+
+button:active {
+    transform: translateY(1px); /* Press down effect */
+    box-shadow: none; /* Remove shadow when pressed */
+}
+
+.list-item{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+    
+   list-style: none;   
+   display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    padding-left:5px ;
+    margin: 5px;
+}
+
+ .list-item button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    border-radius: 50%; /* Rounded shape */
+    font-size: 15px; /* Icon font size */
+padding: 5px;
+margin: 5px;
+    border: 2px solid black;
+    text-transform: capitalize;
+margin-left: 240px;
+}
